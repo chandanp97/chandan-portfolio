@@ -146,9 +146,7 @@ transform:translateY(0px);
 
 }
 
-/* ==========================================
-   NAVBAR
-========================================== */
+/* ========================================== NAVBAR ========================================== */
 
 .navbar{
 
@@ -222,9 +220,7 @@ color:#8B5CF6 !important;
 
 }
 
-/* ==========================================
-   HERO
-========================================== */
+/* ========================================== HERO ========================================== */
 
 .hero{
 
@@ -536,10 +532,9 @@ ABOUT
     /*=========================EXPERIENCE=========================*/
 
     .experience-section{
-
-    padding:120px 0;
-    
+        padding:100px 0 120px;
     }
+    
     
     .timeline{
     
@@ -640,9 +635,7 @@ ABOUT
     line-height:1.8;
     
     }
-    /*==========================
-PROJECTS
-===========================*/
+    /*==========================PROJECTS===========================*/
 
 .projects-section{
 
@@ -742,11 +735,9 @@ PROJECTS
     
     }
 
-    /*==========================
-CONTACT
-===========================*/
+    /*==========================CONTACT===========================*/
 
-.contact-section{
+    .contact-section{
 
     padding:120px 0;
     
@@ -821,11 +812,9 @@ CONTACT
     color:#8B5CF6;
     
     }
-    /*==========================
-FOOTER
-===========================*/
+    /*==========================FOOTER===========================*/
 
-.footer{
+    .footer{
 
     padding:30px 0;
     
@@ -838,54 +827,50 @@ FOOTER
     margin-top:60px;
     
     }
-    /*==========================
-SCROLL BUTTON
-===========================*/
+    /*==========================SCROLL BUTTON===========================*/
 
-#topBtn{
+    #topBtn{
 
-position:fixed;
+    position:fixed;
 
-right:30px;
+    right:30px;
 
-bottom:30px;
+    bottom:30px;
 
-width:55px;
+    width:55px;
 
-height:55px;
+    height:55px;
 
-border:none;
+    border:none;
 
-border-radius:50%;
+    border-radius:50%;
 
-background:#8B5CF6;
+    background:#8B5CF6;
 
-color:white;
+    color:white;
 
-font-size:20px;
+    font-size:20px;
 
-cursor:pointer;
+    cursor:pointer;
 
-display:none;
+    display:none;
 
-z-index:999;
+    z-index:999;
 
-box-shadow:0 15px 40px rgba(139,92,246,.35);
+    box-shadow:0 15px 40px rgba(139,92,246,.35);
 
-transition:.35s;
+    transition:.35s;
 
-}
+    }
 
-#topBtn:hover{
+    #topBtn:hover{
 
-transform:translateY(-5px);
+    transform:translateY(-5px);
 
-}
-/*==========================
-SCROLL BUTTON
-===========================*/
+    }
+/*==========================SCROLL BUTTON===========================*/
 
-#topBtn{
+    #topBtn{
 
     position:fixed;
     
@@ -926,13 +911,13 @@ SCROLL BUTTON
     }
     /* Active Navbar Link */
 
-.nav-link.active{
+    .nav-link.active{
     color:#8B5CF6 !important;
-}
+    }
 
 /* ==========================   MOBILE RESPONSIVE========================== */
 
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
 
     .hero {
         padding: 120px 20px 80px;
@@ -984,4 +969,370 @@ SCROLL BUTTON
     .skill-card {
         margin-bottom: 20px;
     }
+    }
+/* ===================================   RESPONSIVE DESIGN=================================== */
+
+    @media (max-width:992px){
+
+    .hero{
+    padding:130px 20px 80px;
+    min-height:auto;
+    }
+    
+    .hero h1{
+    font-size:52px;
+    }
+    
+    .hero h3{
+    font-size:26px;
+    height:auto;
+    }
+    
+    .hero p{
+    font-size:17px;
+    }
+    
+    .section-title{
+    font-size:38px;
+    }
+    
+    .about-section,
+    .skills-section,
+    .experience-section,
+    .projects-section,
+    .contact-section{
+    padding:90px 0;
+    }
+    
+    .stats-grid{
+    margin-top:50px;
+    }
+    
+    .project-card,
+    .skill-card,
+    .contact-card{
+    margin-bottom:25px;
+    }
+    
+    }
+    
+    
+    @media (max-width:768px){
+    
+    .navbar-brand{
+    font-size:26px;
+    }
+    
+    .navbar{
+    padding:12px 0;
+    }
+    
+    .hero{
+    
+    padding-top:140px;
+    
+    }
+    
+    .hero h1{
+    
+    font-size:38px;
+    
+    }
+    
+    .hero h3{
+    
+    font-size:22px;
+    
+    }
+    
+    .hero p{
+    
+    font-size:15px;
+    
+    line-height:1.8;
+    
+    }
+    
+    .btn-main,
+    .btn-outline-main{
+    
+    width:100%;
+    
+    display:block;
+    
+    margin-bottom:15px;
+    
+    }
+    
+    .about-list{
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    .stats-grid{
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    .skill-card{
+    
+    padding:30px;
+    
+    }
+    
+    .section-title{
+    
+    font-size:32px;
+    
+    }
+    
+    .contact-card{
+    
+    padding:30px;
+    
+    }
+    
+    .footer p{
+    
+    font-size:14px;
+    
+    }
+    
+    }
+    
+    
+    @media (max-width:576px){
+    
+    .hero h1{
+    
+    font-size:32px;
+    
+    }
+    
+    .hero h3{
+    
+    font-size:20px;
+    
+    }
+    
+    .hero h5{
+    
+    font-size:18px;
+    
+    }
+    
+    .hero p{
+    
+    font-size:14px;
+    
+    }
+    
+    .section-title{
+    
+    font-size:28px;
+    
+    }
+    
+    }
+
+    /* =========================== MOBILE NAVBAR =========================== */
+
+    @media (max-width:768px){
+
+    .navbar{
+        padding:12px 0;
+    }
+    
+    .navbar-toggler{
+        border:1px solid rgba(255,255,255,.15);
+        border-radius:10px;
+        padding:8px 10px;
+    }
+    
+    .navbar-toggler:focus{
+        box-shadow:none;
+    }
+    
+    .navbar-collapse{
+        background:#111827;
+        padding:20px;
+        margin-top:15px;
+        border-radius:15px;
+    }
+    
+    .navbar-nav{
+        text-align:center;
+    }
+    
+    .navbar-nav .nav-link{
+        padding:12px 0;
+    }
+    
+    }
+    html,
+    body{
+    overflow-x:hidden;
+    }
+
+    .container{
+    max-width:100%;
+    }
+
+    section{
+    overflow:hidden;
+    }
+    @media (max-width:768px){
+
+    .timeline{
+        padding-left:20px;
+    }
+    
+    .timeline::before{
+        left:8px;
+    }
+    
+    .timeline-dot{
+        left:-1px;
+    }
+    
+    .experience-card{
+        margin-left:20px;
+        padding:25px;
+    }
+    
+    .experience-card h3{
+        font-size:32px;
+    }
+    
+    }
+
+    /* ===========================   EXPERIENCE MOBILE FIX=========================== */
+
+    @media (max-width:768px){
+
+    .experience-section{
+    
+    padding:90px 0 70px;
+    
+    }
+    
+    .experience-section .section-heading{
+    
+    margin-bottom:40px;
+    
+    }
+    
+    .timeline{
+    
+    padding-left:25px;
+    
+    border-left:2px solid rgba(139,92,246,.35);
+    
+    }
+    
+    .timeline-dot{
+    
+    left:-35px;
+    
+    width:16px;
+    
+    height:16px;
+    
+    }
+    
+    .timeline-content{
+    
+    padding:25px;
+    
+    }
+    
+    .timeline-content h3{
+    
+    font-size:18px;
+    
+    }
+    
+    .timeline-content h5{
+    
+    font-size:16px;
+    
+    }
+    
+    }
+    /* ===========================   PROJECTS MOBILE FIX=========================== */
+
+    @media (max-width:768px){
+
+    .projects-section{
+        padding:90px 0;
+    }
+    
+    .projects-section .section-heading{
+        margin-bottom:45px;
+    }
+    
+    .project-grid,
+    .projects-grid,
+    .row.g-4{
+        margin-top:20px !important;
+    }
+    
+    .project-card{
+        margin-top:0;
+    }
+    
+    }
+    /* ===========================   PROJECTS MOBILE FIX=========================== */
+
+    @media (max-width:768px){
+
+    .projects-section{
+        padding:90px 0;
+    }
+    
+    .projects-section .section-heading{
+        margin-bottom:50px;
+    }
+    
+    .projects-section .row{
+        margin-top:30px !important;
+    }
+    
+    .project-card{
+        padding:25px;
+    }
+    
+    .project-icon{
+        width:60px;
+        height:60px;
+        font-size:24px;
+    }
+    
+    .project-card h3{
+        font-size:24px;
+    }
+    
+    }
+    /* ===========================   PROJECTS FIX=========================== */
+
+.projects-row{
+    margin-top:60px;
+}
+
+@media (max-width:768px){
+
+.projects-section{
+    padding:90px 0;
+}
+
+.projects-row{
+    margin-top:35px;
+}
+
+.project-card{
+    padding:25px;
+}
+
 }
