@@ -1,1 +1,137 @@
+/* Google Font */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
 
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0B1120;
+    color:#fff;
+}
+
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 8%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(11,17,32,.75);
+    backdrop-filter:blur(15px);
+    z-index:999;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#8B5CF6;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#8B5CF6;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 8%;
+}
+
+.hero-content{
+    max-width:850px;
+}
+
+.hero h3{
+    color:#8B5CF6;
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.hero h1{
+    font-size:68px;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:30px;
+    color:#CBD5E1;
+    margin-bottom:25px;
+}
+
+.hero p{
+    color:#94A3B8;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    background:#8B5CF6;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:50px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(139,92,246,.4);
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid #8B5CF6;
+}
+
+.btn-outline:hover{
+    background:#8B5CF6;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero h2{
+font-size:22px;
+}
+
+.nav-links{
+display:none;
+}
+
+}
