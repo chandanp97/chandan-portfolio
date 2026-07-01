@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chandanp97.github.io/chandan-portfolio/sitemap.xml
